@@ -2,4 +2,4 @@
 
 ## Number Theory
 
-* [Proof of Multiplicativity of Euler Phi Function by Chinese Remainer Theorem](README.md)
+* [\[Proof\] Multiplicativity of Euler Phi Function by Chinese Remainer Theorem](README.md)
