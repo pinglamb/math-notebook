@@ -11,6 +11,6 @@ $$
 So, by summing that over all natural numbers, we get:
 
 $$
-\begin{equation} \begin{split} \nonumber \sum k^2 &= 2 \sum {k \choose 2} + \sum {k \choose 1} \\[15pt] &= 2 {n+1 \choose 3} + {n+1 \choose 2} \\[15pt] &= 2 \Big[ \frac{(n+1)(n)(n-1)}{6} \Big] + \frac{(n+1)(n)}{2} \\[15pt] &= \frac{n(n+1)}{2} \Big[ \frac{n-1}{3} + 1 \Big] \\[15pt] &= \frac{n(n+1)(2n+1)}{6} \end{split} \end{equation}
+\begin{equation} \begin{split} \nonumber \sum k^2 &= 2 \sum {k \choose 2} + \sum {k \choose 1} \\[15pt] &= 2 {n+1 \choose 3} + {n+1 \choose 2} \\[15pt] &= 2 \Big[ \frac{(n+1)(n)(n-1)}{6} \Big] + \frac{(n+1)(n)}{2} \\[15pt] &= \frac{n(n+1)}{2} \Big[ \frac{2(n-1)}{3} + 1 \Big] \\[15pt] &= \frac{n(n+1)(2n+1)}{6} \end{split} \end{equation}
 $$
 
