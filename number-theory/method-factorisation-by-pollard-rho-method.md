@@ -1,0 +1,10 @@
+# \[Method] Factorisation by Pollard Rho Method
+
+Suppose $$n = pq$$ is a composite integer with $$p$$ being the smallest prime factor, consider a sequence of random integers $$\{ x_1, x_2, x_3, \mathellipsis, x_k \}$$, we can see that $$\{ x_i \space mod \space n \}$$ and $$\{ x_i \space mod \space p\}$$ will eventually repeat itself as we only have finite number of residue classes, with $$\{ x_i \space mod \space p \}$$ repeats earlier most of the time as $$p << n$$. Therefore, it is a great chance that there exists $$i, j$$ such that $$x_i \equiv x_j \space (mod \space p)$$ and $$x_i \not\equiv x_j \space (mod \space n)$$, meaning $$p \space | \space x_i - x_j$$ hence $$(x_i - x_j, n) = d$$, with $$d$$ being a multiple of $$p$$ and a non-trivial divisor of $$n$$.
+
+However, it is time consuming to compare every pair of $$x_i$$ and $$x_j$$ so we impose a structure to the sequence by making $$x_{i+1} = f(x_i)$$, with $$f(x)$$ being able to generate a pseudorandom sequence of numbers. $$f(x) = x^2 + 1$$ and $$x_0 = 2$$ is a typical choice. With this structure, we can see that if $$x_i \equiv x_j$$ for starting from some $$i, j$$, $$x_i \equiv x_{i + (j - i)} \equiv x_{i + 2(j - i)} \equiv \mathellipsis$$, $$x_{i+1} \equiv x_{i + 1 + (j - i)} \equiv x_{i+1 + 2(j - i)} \equiv \mathellipsis$$, and so on. By using Floyd's cycle-finding algorithm, we can detect such cycle by finding $$(x_{2k} - x_k, n)$$ with $$k = 1, 2, 3, \mathellipsis$$ until we succeed by finding a non-trival divisor and fail with $$d = n$$.
+
+* [https://youtu.be/Imxx1tFDeSw?list=PL8yHsr3EFj53L8sMbzIhhXSAOpuZ1Fov8\&t=637](https://youtu.be/Imxx1tFDeSw?list=PL8yHsr3EFj53L8sMbzIhhXSAOpuZ1Fov8\&t=637)
+* [https://www.math.brown.edu/jpipher/math158/pollardRho.pdf](https://www.math.brown.edu/jpipher/math158/pollardRho.pdf)
+* [https://en.wikipedia.org/wiki/Pollard%27s\_rho\_algorithm](https://en.wikipedia.org/wiki/Pollard's\_rho\_algorithm)
+* Kenneth H Rosen _Elementary Number Theory_, 2011 - Section 4.6 (P.187)
