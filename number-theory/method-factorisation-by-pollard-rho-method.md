@@ -7,4 +7,4 @@ However, it is time consuming to compare every pair of $$x_i$$ and $$x_j$$ so we
 * [https://youtu.be/Imxx1tFDeSw?list=PL8yHsr3EFj53L8sMbzIhhXSAOpuZ1Fov8\&t=637](https://youtu.be/Imxx1tFDeSw?list=PL8yHsr3EFj53L8sMbzIhhXSAOpuZ1Fov8\&t=637)
 * [https://www.math.brown.edu/jpipher/math158/pollardRho.pdf](https://www.math.brown.edu/jpipher/math158/pollardRho.pdf)
 * [https://en.wikipedia.org/wiki/Pollard%27s\_rho\_algorithm](https://en.wikipedia.org/wiki/Pollard's\_rho\_algorithm)
-* Kenneth H Rosen _Elementary Number Theory_, 2011 - Section 4.6 (P.187)
+* Kenneth H Rosen _Elementary Number Theory_, 2011 - Section 4.6 (P187)

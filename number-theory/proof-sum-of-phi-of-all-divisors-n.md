@@ -9,5 +9,5 @@ For a specific class $$C_d$$, as $$(m, n) = d \iff (m/d, n/d) = 1$$, it means th
 In other words, the summatory function of $$\varphi(n)$$ is the identity function.
 
 * [https://youtu.be/8I0z\_Lobtso?t=2638](https://youtu.be/8I0z\_Lobtso?t=2638)
-* Kenneth H Rosen _Elementary Number Theory_, 2011 - Theorem 7.7 (P.244)
+* Kenneth H Rosen _Elementary Number Theory_, 2011 - Theorem 7.7 (P244)
 
