@@ -16,7 +16,7 @@ $$
 r_{2,1} \longrightarrow r_{2,1}a = r_{2,2} \longrightarrow r_{2,1}a^2 = r_{2,3} \longrightarrow \mathellipsis \longrightarrow r_{2,1}
 $$
 
-We repeat this process until all $$r_i$$ belongs to one of sequence. We can see that all the sequences are disjoint because if any $$r_x = r_y$$ in 2 difference sequences, it implies that $$r_x a = r_y a, r_x a^2 = r_y a^2, \mathellipsis$$, which means the two sequence are the same. Also, we can derive from one sequence to another by multiplying every element of the sequence by $$r_x^{-1}r_y$$, which means all of them are of the same size.
+We repeat this process until all the $$r_i$$ belongs to one of the sequences. We can see that all the sequences are disjoint because if any $$r_x = r_y$$ in 2 difference sequences, it implies that $$r_x a = r_y a, r_x a^2 = r_y a^2, \mathellipsis$$, which means the two sequence are the same. Also, we can derive from one sequence to another by multiplying every element of the sequence by $$r_x^{-1}r_y$$, which means all of them are of the same size.
 
 Base of the above, we can conclude that the residue classes of $$m$$ co-prime to $$m$$ are forming disjoint sequences of the same size and one of them shows that $$a^x \equiv 1$$ for some $$x$$. It means $$ord(a) \space | \space \varphi(m)$$. Hence, $$a^{\varphi(m)} \equiv 1 \space (mod \space m)$$.
 
