@@ -4,6 +4,7 @@
 
 ## Number Theory
 
+* [\[Proof\] Infinitely Many Primes](number-theory/proof-infinitely-many-primes.md)
 * [\[Proof\] Euler's Theorem by Disjoint Cycles of Coprimes](number-theory/proof-eulers-theorem-by-disjoint-cycles-of-coprimes.md)
 * [\[Proof\] Gauss's Generation of Wilson's Theorem](number-theory/proof-gausss-generation-of-wilsons-theorem.md)
 * [\[Proof\] Multiplicativity of Euler Phi Function by Chinese Remainder Theorem](number-theory/proof-multiplicativity-of-euler-phi-function-by-chinese-remainer-theorem.md)
