@@ -11,3 +11,4 @@
 * [\[Method\] Sum of Squares by Binomial Coefficients](number-theory/method-sum-of-squares-by-binomial-coefficients.md)
 * [\[Method\] Factorisation by Pollard Rho Method](number-theory/method-factorisation-by-pollard-rho-method.md)
 * [\[Solution\] Pirates and Monkey Problem](number-theory/solution-pirates-and-monkey-problem.md)
+* [\[Solution\] Primes of the form n, n+2 and n+4](number-theory/solution-primes-of-the-form-n-n+2-and-n+4.md)
