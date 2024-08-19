@@ -28,10 +28,10 @@ $$
 f'(r_{a-1})t \equiv -f(r_{a-1}) / p^{a-1} \space (mod \space p)
 $$
 
-Suppose that $$f'(r_{a-1}) \not\equiv 0 \space (mod \space p)$$, $$(f'(r_{a-1}), p) = 1$$, hence, f'(r\_{a-1}) has an inverse modulo $$p$$ and we have a unique solution for $$t \equiv (-f(r_{a-1})/p^{a-1})\overline{f'(r_{a-1})}$$. By substituding it back, we found
+Suppose that $$f'(r_{a-1}) \not\equiv 0 \space (mod \space p)$$, $$(f'(r_{a-1}), p) = 1$$, hence, f'(r\_{a-1}) has an inverse modulo $$p$$ and we have a unique solution
 
 $$
-r_a = r_{a-1} - f(r_{a-1})\overline{f'(r_{a-1})}
+t \equiv (-f(r_{a-1})/p^{a-1})\overline{f'(r_{a-1})} \enspace (mod \space p)
 $$
 
-When $$f'(r_{a-1}) \equiv 0 \space (mod \space p)$$, the above releation can only be satified when $$-f(r_{a-1}) / p^{a-1} \equiv 0 \space (mod \space p)$$, i.e. $$f(r_{a-1}) \equiv 0 \space (mod \space p^k)$$. Hence, if $$f(r_{a-1}) \equiv 0 \space (mod \space p^k)$$, the congruence has solutions of the form $$r_{a-1} + tp^{k-1}$$, where $$t = 1, 2, 3, ..., p-1$$. Otherwise, the congruence has no solution.
+When $$f'(r_{a-1}) \equiv 0 \space (mod \space p)$$, From the Taylor Expansion, we can see that $$f(r_a) = f(r_{a-1}) \space (mod \space p^a)$$. Therefore, if $$f(r_{a-1}) \equiv 0 \space (mod \space p^a)$$, the congruence has solutions of the form $$r_{a-1} + tp^{k-1}$$, where $$t = 1, 2, 3, ..., p-1$$. Otherwise, the congruence has no solution.
