@@ -11,5 +11,6 @@
 * [\[Proof\] Sum of Phi of all divisors = n](number-theory/proof-sum-of-phi-of-all-divisors-n.md)
 * [\[Method\] Sum of Squares by Binomial Coefficients](number-theory/method-sum-of-squares-by-binomial-coefficients.md)
 * [\[Method\] Factorisation by Pollard Rho Method](number-theory/method-factorisation-by-pollard-rho-method.md)
+* [\[Method\] Solving Polynomial Congruences by Hensel's Lemma](number-theory/method-solving-polynomial-congruences-by-hensels-lemma.md)
 * [\[Solution\] Pirates and Monkey Problem](number-theory/solution-pirates-and-monkey-problem.md)
 * [\[Solution\] Primes of the form n, n+2 and n+4](number-theory/solution-primes-of-the-form-n-n+2-and-n+4.md)
