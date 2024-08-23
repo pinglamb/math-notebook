@@ -10,4 +10,4 @@ $$
 \begin{aligned} r_{k+1} &\equiv r_k - f(r_k)\overline{f'(r_k)} \\ &\equiv r_k - (ar_k - 1)(r_1) \\ &\equiv r_k(1 - ar_1) + r_1 \enspace (mod \space p^k) \end{aligned}
 $$
 
-* Kenneth H Rosen _Elementary Number Theory_, 2011 - Problem 4.4.11 (P177)
+* Kenneth H Rosen _Elementary Number Theory_, 2011 - Exercise 4.4.11 (P177)

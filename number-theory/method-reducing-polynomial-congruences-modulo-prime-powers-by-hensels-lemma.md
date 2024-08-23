@@ -42,6 +42,14 @@ $$
 
 We lifted the solution of the congruence modulo $$p^a$$ to a unique solution of the same congruence modulo $$p^{a+1}$$. (Hensel's Lemma)
 
+As $$r_{a+1} = r_{a} + tp^a$$, by rearranging the terms we get $$r_a = r_{a+1} - tp^a$$. By Taylor Expansion, we have $$f(r_a) \equiv f(r_{a+1}) + f'(r_{a+1})(-tp^a) \space (mod \space p^{k+1})$$ and as $$f(r_{a+1}) \equiv 0 \space (mod \space p^{k+1})$$, we get a similar congruence $$f'(r_{a+1})t \equiv -f(r_a) / p^a \space (mod \space p)$$. Hence, $$f'(r_{a+1})t \equiv f'(r_a)t \space (mod \space p)$$ and as $$(t, p) = 1$$, we have $$f'(r_{a+1}) \equiv f'(r_a) \not \equiv 0\space (mod \space p)$$. Base on this result, we can conclude that if we have $$f(r_1) \equiv 0 \space (mod \space p)$$ and $$f'(r_1) \not \equiv 0 \space (mod \space p)$$, there is a unique solution $$r_{a+1}$$ modulo $$p^{a+1}$$, $$a = 1, 2, ...$$, such that
+
+$$
+r_{a+1} = r_a - f(r_a)\overline{f'(r_1)} \enspace (mod \space p^{a+1})
+$$
+
+
+
 When $$f'(r_a) \equiv 0 \space (mod \space p)$$, it means $$f'(r_a)$$ is a multiple of $$p$$. Suppose $$d$$ is a positive integer such that $$p^d \space | \space f'(r_a)$$ but $$p^{d+1} \not | \enspace f'(r_a)$$. Assume $$f(r_a) \equiv 0 \space (mod \space p^a)$$ and let
 
 $$
@@ -72,4 +80,12 @@ $$
 f'(r_{a+1}) = f'(r_a) +f''(r_a)(tp^{a-d}) + \frac{f'''(r_a)}{2!}(tp^{a-d})^2 + ...
 $$
 
-With $$a \ge 2d + 1 \implies a - d \ge d + 1$$, all the terms except $$f'(r_a)$$ are divisible by $$p^{d+1}$$, hence $$f'(r_{a+1}) \equiv f'(r_a) \equiv 0 \space (mod \space p^d)$$ and $$f'(r_{a+1}) \equiv f'(r_a) \not \equiv 0 \space (mod \space p^{d+1})$$, meaning $$p^d \space | \space f'(r_{a+1})$$ but $$p^{d+1} \not | \enspace f"(r_{a+1})$$. Therefore, with the same argument as described above, the solution can then be lifted to solutions of arbitrarily high powers of $$p$$, whenever $$a \ge 2d + 1$$.$$p$$
+With $$a \ge 2d + 1 \implies a - d \ge d + 1$$, all the terms except $$f'(r_a)$$ are divisible by $$p^{d+1}$$, hence $$f'(r_{a+1}) \equiv f'(r_a) \equiv 0 \space (mod \space p^d)$$ and $$f'(r_{a+1}) \equiv f'(r_a) \not \equiv 0 \space (mod \space p^{d+1})$$, meaning $$p^d \space | \space f'(r_{a+1})$$ but $$p^{d+1} \not | \enspace f"(r_{a+1})$$. Therefore, with the same argument as described above, the solution can then be lifted to solutions of arbitrarily high powers of $$p$$, whenever $$a \ge 2d + 1$$. (The case when $$f'(r_a) \not \equiv 0 \space (mod \space p)$$ is the same as having $$d = 0$$)
+
+When $$1 \le a < 2d + 1$$ and $$f'(r_a) \equiv 0 \space (mod \space p)$$, as $$p \space | \space f'(r_a)$$ and $$f'(r_a)t \equiv -f(r_a) / p^a \space (mod \space p)$$, $$f(r_a) / p^a$$ has to be divisible by $$p$$ so that the congruence holds, meaning $$f(r_a) \equiv 0 \space (mod \space p^{a+1})$$ and $$t = 0, 1, 2, 3, ..., p - 1$$. If $$f(r_a) \not \equiv 0 \space (mod \space p^{a+1})$$, the congruence module $$p^{a+1}$$ has no solution lifted from $$x = r_a \space (mod \space p^a)$$.
+
+
+
+* Kenneth H Rosen _Elementary Number Theory_, 2011 - Section 4.4 (P171), Exercise 4.4.12 (P177)
+* [https://www.youtube.com/watch?v=nrH2vs04TyQ](https://www.youtube.com/watch?v=nrH2vs04TyQ)
+* [https://www.youtube.com/watch?v=1HTq2zq2RtY](https://www.youtube.com/watch?v=1HTq2zq2RtY)
