@@ -9,9 +9,15 @@
 * [\[Proof\] Gauss's Generation of Wilson's Theorem](number-theory/proof-gausss-generation-of-wilsons-theorem.md)
 * [\[Proof\] Multiplicativity of Euler Phi Function by Chinese Remainder Theorem](number-theory/proof-multiplicativity-of-euler-phi-function-by-chinese-remainer-theorem.md)
 * [\[Proof\] Sum of Phi of all divisors = n](number-theory/proof-sum-of-phi-of-all-divisors-n.md)
+* [\[Note\] Primitive Root](number-theory/note-primitive-root.md)
 * [\[Method\] Sum of Squares by Binomial Coefficients](number-theory/method-sum-of-squares-by-binomial-coefficients.md)
 * [\[Method\] Factorisation by Pollard Rho Method](number-theory/method-factorisation-by-pollard-rho-method.md)
 * [\[Method\] Reducing Polynomial Congruences modulo Prime Powers by Hensel's Lemma](number-theory/method-reducing-polynomial-congruences-modulo-prime-powers-by-hensels-lemma.md)
 * [\[Method\] Recursive Formula for Inverse module Prime Powers](number-theory/method-recursive-formula-for-inverse-module-prime-powers.md)
 * [\[Solution\] Pirates and Monkey Problem](number-theory/solution-pirates-and-monkey-problem.md)
 * [\[Solution\] Primes of the form n, n+2 and n+4](number-theory/solution-primes-of-the-form-n-n+2-and-n+4.md)
+
+## Introduction to Number Theory by Richard E Borcherds
+
+* [Introduction](introduction-to-number-theory-by-richard-e-borcherds/introduction.md)
+* [Lecture 23 - Primitive Roots](introduction-to-number-theory-by-richard-e-borcherds/lecture-23-primitive-roots.md)

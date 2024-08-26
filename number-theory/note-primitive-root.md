@@ -1,0 +1,2 @@
+# \[Note] Primitive Root
+
