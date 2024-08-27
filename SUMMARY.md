@@ -10,6 +10,7 @@
 * [\[Proof\] Multiplicativity of Euler Phi Function by Chinese Remainder Theorem](number-theory/proof-multiplicativity-of-euler-phi-function-by-chinese-remainer-theorem.md)
 * [\[Proof\] Sum of Phi of all divisors = n](number-theory/proof-sum-of-phi-of-all-divisors-n.md)
 * [\[Proof\] Powers of Primitive Root forms a reduced residue system](number-theory/proof-powers-of-primitive-root-forms-a-reduced-residue-system.md)
+* [\[Proof\] Primitive Root of Prime Powers is also Primitive Root of the Prime](number-theory/proof-primitive-root-of-prime-powers-is-also-primitive-root-of-the-prime.md)
 * [\[Method\] Sum of Squares by Binomial Coefficients](number-theory/method-sum-of-squares-by-binomial-coefficients.md)
 * [\[Method\] Factorisation by Pollard Rho Method](number-theory/method-factorisation-by-pollard-rho-method.md)
 * [\[Method\] Reducing Polynomial Congruences modulo Prime Powers by Hensel's Lemma](number-theory/method-reducing-polynomial-congruences-modulo-prime-powers-by-hensels-lemma.md)
