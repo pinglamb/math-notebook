@@ -24,11 +24,11 @@ While finding the primitive root of $$9 = 3^2$$, which can be $$1, 2, 4, 5, 7, 8
 
 For the case of $$10 = 2 \cdot 5$$, there is a 1-to-1 mapping between the reduced residue classes modulo $$10$$ and that modulo $$5$$. If $$p$$ is odd prime and $$g$$ is a primitive root modulo $$p$$, either $$g$$ or $$g + p$$, whichever is odd, is a primitive root of $$2p$$. It is further extended to **integers in the form** $$2p^n$$ **with primitive root being** $$g$$ **or** $$g + p^n$$**, whichever is odd**. <mark style="color:red;">\[Proof]</mark>
 
-For the case of $$11$$ and $$13$$, if $$p$$ is an odd prime, as the $$ord_p(a) \space | \space p - 1$$, by counting the number of integers that are relatively prime to $$p$$ with $$ord_p(a) = d$$, where $$d \space | \space p - 1$$. It turns out that **there are exactly** $$\varphi(d)$$ **integers of order** $$d$$ **modulo** $$p$$**, hence there are** $$\varphi(\varphi(p))$$ **primitive roots modulo** $$p$$**, which proves every odd prime has primitive root**. <mark style="color:red;">\[Proof]</mark>
+For the case of $$11$$ and $$13$$, let $$p$$ is an odd prime, by Fermat's Theorem, $$ord_p(a) \space | \space p - 1$$. Therefore, by counting the number of integers with order $$d$$ modulo $$p$$, for each divisor $$d$$ of $$p-1$$, we can have an idea about if there are integers relatively prime to $$p$$ with order $$p - 1$$. It turns out this method can be used to prove that **there are exactly** $$\varphi(d)$$ **integers of order** $$d$$ **modulo** $$p$$**, hence there are** $$\varphi(\varphi(p))$$ **primitive roots modulo** $$p$$**, which implies every odd prime has primitive root**. [\[Proof\]](../number-theory/proof-existence-of-primitive-roots-modulo-prime.md)
 
 For the case of $$12 = 4 \cdot 3$$ and $$15 = 3 \cdot 5$$, we can see that by Chinese Remainder Theorem, the congruence $$x^2 \equiv 1 \space (mod \space 12)$$ has $$2 \cdot 2 = 4$$ solutions. Hence, they don't have primitive roots.
 
-To conclude, integers of the form $$8n$$, $$4p$$ and $$pq$$ don't have primitive roots. Hence, the remaining cases are $$2, 4, p^n, 2p^n$$.
+To conclude, integers of the form $$8n$$, $$4p$$ and $$pq$$ don't have primitive roots. Hence, the remaining cases are $$1, 2, 4, p^n, 2p^n$$.
 
 ## How to find Primitive Root
 
