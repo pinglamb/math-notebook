@@ -18,7 +18,7 @@ Conversely, assume the powers of an integer $$g$$ are all relatively prime to $$
 
 There are few properties about existence of primitive roots emerged while finding the primitive root of various integers.
 
-The first integer having no primitive root is $$8$$. The obstruction is that $$x^2 \equiv 1 \space (mod \space 8)$$ has 4 distinct solutions. If $$m$$ has a primitive root $$g$$, the only solutions to $$x^2 \equiv 1 \space (mod \space m)$$ should be $$g^{\varphi(m)} \equiv 1$$ and $$g^{\varphi(m) / 2} \equiv -1$$. It turns out $$m$$ **has a primitive root if and only if** $$x^2 \equiv 1 \space (mod \space m)$$ **has exactly 2 solutions** <mark style="color:red;">\[Proof]</mark>.
+The first integer having no primitive root is $$8$$. The obstruction is that $$x^2 \equiv 1 \space (mod \space 8)$$ has 4 distinct solutions. If $$m$$ has a primitive root $$g$$, the only solutions to $$x^2 \equiv 1 \space (mod \space m)$$ should be $$g^{\varphi(m)} \equiv 1$$ and $$g^{\varphi(m) / 2} \equiv -1$$. It turns out there are no primtive roots modulo $$2^n$$ for $$n > 2$$ [\[Proof\]](../number-theory/proof-no-primitive-roots-for-powers-of-2-except-4.md).
 
 While finding the primitive root of $$9 = 3^2$$, which can be $$1, 2, 4, 5, 7, 8$$. As a primitive root of $$9$$ is also a primitive of $$3$$ [\[Proof\]](../number-theory/proof-primitive-root-of-prime-powers-is-also-primitive-root-of-the-prime.md), we only need to check $$2, 5, 8$$. In general, if we know $$g$$ is a primitive root of $$p$$, we only need to check $$g + tp$$ for $$p^2$$ (turns out that **if** $$p$$ **is odd prime and** $$g$$ **is a primitive root modulo** $$p$$**, either** $$g$$ **or** $$g+p$$ **is the primitive root modulo** $$p^2$$ **and if** $$g'$$ **is a primitive root modulo** $$p^2$$**,** $$g'$$ **is a primitive root modulo** $$p^n$$ **for all positive integers** $$n$$ [\[Proof\]](../number-theory/proof-existence-of-primitive-root-modulo-powers-of-odd-prime.md)).
 
@@ -26,9 +26,11 @@ For the case of $$10 = 2 \cdot 5$$, there is a 1-to-1 mapping between the reduce
 
 For the case of $$11$$ and $$13$$, let $$p$$ is an odd prime, by Fermat's Theorem, $$ord_p(a) \space | \space p - 1$$. Therefore, by counting the number of integers with order $$d$$ modulo $$p$$, for each divisor $$d$$ of $$p-1$$, we can have an idea about if there are integers relatively prime to $$p$$ with order $$p - 1$$. It turns out this method can be used to prove that **there are exactly** $$\varphi(d)$$ **integers of order** $$d$$ **modulo** $$p$$**, hence there are** $$\varphi(\varphi(p))$$ **primitive roots modulo** $$p$$**, which implies every odd prime has primitive root** [\[Proof\]](../number-theory/proof-existence-of-primitive-roots-modulo-prime.md).
 
-For the case of $$12 = 4 \cdot 3$$ and $$15 = 3 \cdot 5$$, we can see that by Chinese Remainder Theorem, the congruence $$x^2 \equiv 1 \space (mod \space 12)$$ has $$2 \cdot 2 = 4$$ solutions. Hence, they don't have primitive roots.
+For the case of $$12 = 4 \cdot 3$$ and $$15 = 3 \cdot 5$$, we can see that by Chinese Remainder Theorem, the congruence $$x^2 \equiv 1 \space (mod \space 12)$$ has $$2 \cdot 2 = 4$$ solutions, which has a similar obstruction as $$8$$. Hence, they don't have primitive roots. It can be shown that $$m$$ does not have a primitive root unless $$m$$ is a prime power or twice a prime power, with the prime being odd <mark style="color:red;">\[Proof]</mark>.
 
-To conclude, integers of the form $$8n$$, $$4p$$ and $$pq$$ don't have primitive roots. Hence, the remaining cases are $$1, 2, 4, p^n, 2p^n$$.
+To conclude, integers of the form $$8n$$, $$4p$$ and $$pq$$ don't have primitive roots and the remaining cases are $$1, 2, 4, p^n, 2p^n$$.
+
+From the above, we can also see that the existence of primitive roots modulo $$m$$ has a close relationship with the number of solutions for the congruence $$x^2 \equiv 1 \space (mod \space m)$$. It turns out **the congruence** $$x^2 \equiv 1 \space (mod \space m)$$ **having exactly 2 solutions is a sufficient and necessary conditions for the existence** <mark style="color:red;">\[Proof]</mark>.
 
 ## How to find Primitive Root
 
