@@ -16,6 +16,7 @@
 * [\[Proof\] Existence of Primitive Roots modulo Prime](number-theory/proof-existence-of-primitive-roots-modulo-prime.md)
 * [\[Proof\] Existence of Primitive Root modulo Powers of Odd Prime](number-theory/proof-existence-of-primitive-root-modulo-powers-of-odd-prime.md)
 * [\[Proof\] No Primitive Roots for Powers of 2 except 4](number-theory/proof-no-primitive-roots-for-powers-of-2-except-4.md)
+* [\[Proof\] No Primitive Roots for m having 2 distinct odd prime factors](number-theory/proof-no-primitive-roots-for-m-having-2-distinct-odd-prime-factors.md)
 * [\[Method\] Sum of Squares by Binomial Coefficients](number-theory/method-sum-of-squares-by-binomial-coefficients.md)
 * [\[Method\] Factorisation by Pollard Rho Method](number-theory/method-factorisation-by-pollard-rho-method.md)
 * [\[Method\] Reducing Polynomial Congruences modulo Prime Powers by Hensel's Lemma](number-theory/method-reducing-polynomial-congruences-modulo-prime-powers-by-hensels-lemma.md)
