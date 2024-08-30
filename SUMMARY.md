@@ -6,7 +6,6 @@
 
 * [\[Proof\] Infinitely Many Primes](number-theory/proof-infinitely-many-primes.md)
 * [\[Proof\] Euler's Theorem by Disjoint Cycles of Coprimes](number-theory/proof-eulers-theorem-by-disjoint-cycles-of-coprimes.md)
-* [\[Proof\] Gauss's Generation of Wilson's Theorem](number-theory/proof-gausss-generation-of-wilsons-theorem.md)
 * [\[Proof\] Multiplicativity of Euler Phi Function by Chinese Remainder Theorem](number-theory/proof-multiplicativity-of-euler-phi-function-by-chinese-remainer-theorem.md)
 * [\[Proof\] Sum of Phi of all divisors = n](number-theory/proof-sum-of-phi-of-all-divisors-n.md)
 * [\[Proof\] Order of Powers of a modulo m](number-theory/proof-order-of-powers-of-a-modulo-m.md)
@@ -17,6 +16,7 @@
 * [\[Proof\] Existence of Primitive Root modulo Powers of Odd Prime or Twice that](number-theory/proof-existence-of-primitive-root-modulo-powers-of-odd-prime-or-twice-that.md)
 * [\[Proof\] No Primitive Roots for Powers of 2 except 4](number-theory/proof-no-primitive-roots-for-powers-of-2-except-4.md)
 * [\[Proof\] No Primitive Roots for m having 2 distinct odd prime factors](number-theory/proof-no-primitive-roots-for-m-having-2-distinct-odd-prime-factors.md)
+* [\[Proof\] Gauss's Generation of Wilson's Theorem](number-theory/proof-gausss-generation-of-wilsons-theorem.md)
 * [\[Method\] Sum of Squares by Binomial Coefficients](number-theory/method-sum-of-squares-by-binomial-coefficients.md)
 * [\[Method\] Factorisation by Pollard Rho Method](number-theory/method-factorisation-by-pollard-rho-method.md)
 * [\[Method\] Reducing Polynomial Congruences modulo Prime Powers by Hensel's Lemma](number-theory/method-reducing-polynomial-congruences-modulo-prime-powers-by-hensels-lemma.md)
