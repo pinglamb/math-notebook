@@ -40,7 +40,7 @@ Indices share many properties of logarithms, but with equalities replaced by con
 
 It is known that the converse of Fermat's Theorem is not true, meaning even if $$a^{m-1} \equiv 1 \space (mod \space m)$$, $$m$$ may still be composite. Composite numbers with such property are called _pseudoprimes_.
 
-However, if there is an integer with order $$m - 1$$ modulo $$m$$, meaning the existence of primitive root $$g$$ modulo $$m$$, with $$ord_m(g) = m - 1$$, then $$m$$ is a prime. We can do such test if we know all the prime factors of $$m - 1$$, by checking if $$g^{(m - 1)/p_i} \not \equiv 1 \space (mod \space m)$$ for all prime divisors of $$m - 1$$. It is called the **Lucas's Converse of Fermat's Little Theorem**. <mark style="color:red;">\[Proof]</mark>
+However, if there is an integer with order $$m - 1$$ modulo $$m$$, meaning the existence of primitive root $$g$$ modulo $$m$$, with $$ord_m(g) = m - 1$$, then $$m$$ is a prime. We can do such test if we know all the prime factors of $$m - 1$$, by checking if $$g^{(m - 1)/p_i} \not \equiv 1 \space (mod \space m)$$ for all prime divisors of $$m - 1$$. It is called the **Lucas's Converse of Fermat's Little Theorem**. [\[Proof\]](../number-theory/proof-lucass-converse-of-fermats-little-theorem.md)
 
 This method seems to be not so efficient as it requires the factorization of $$m - 1$$, which can be a time-consuming task.
 

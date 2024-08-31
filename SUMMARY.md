@@ -17,6 +17,7 @@
 * [\[Proof\] No Primitive Roots for Powers of 2 except 2 and 4](number-theory/proof-no-primitive-roots-for-powers-of-2-except-2-and-4.md)
 * [\[Proof\] No Primitive Roots for m having 2 distinct odd prime factors](number-theory/proof-no-primitive-roots-for-m-having-2-distinct-odd-prime-factors.md)
 * [\[Proof\] Gauss's Generation of Wilson's Theorem](number-theory/proof-gausss-generation-of-wilsons-theorem.md)
+* [\[Proof\] Lucas's Converse of Fermat's Little Theorem](number-theory/proof-lucass-converse-of-fermats-little-theorem.md)
 * [\[Method\] Sum of Squares by Binomial Coefficients](number-theory/method-sum-of-squares-by-binomial-coefficients.md)
 * [\[Method\] Factorisation by Pollard Rho Method](number-theory/method-factorisation-by-pollard-rho-method.md)
 * [\[Method\] Reducing Polynomial Congruences modulo Prime Powers by Hensel's Lemma](number-theory/method-reducing-polynomial-congruences-modulo-prime-powers-by-hensels-lemma.md)
