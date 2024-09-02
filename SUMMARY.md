@@ -30,3 +30,7 @@
 * [Introduction](introduction-to-number-theory-by-richard-e-borcherds/introduction.md)
 * [Lecture 23 - Primitive Roots](introduction-to-number-theory-by-richard-e-borcherds/lecture-23-primitive-roots.md)
 * [Lecture 24 - Primitive Roots for Prime Powers](introduction-to-number-theory-by-richard-e-borcherds/lecture-24-primitive-roots-for-prime-powers.md)
+
+## Group Theory by Richard E Borcherds
+
+* [Lecture 1 - Introduction](group-theory-by-richard-e-borcherds/lecture-1-introduction.md)
