@@ -64,7 +64,7 @@ The identity axiom can be replaced with a weaker statement that there exists $$e
 
 For the inverse axiom to be unambigious, we have to state the uniqueness of $$e$$ in the identity axiom. On the other hand, the notation $$a^{-1}$$ can only be unambigious if the inverse of $$a$$ is unique \[Proof].
 
-To conlcude, we dervied the abstract notion of a group from its concrete notion by taking the combination of symmetries as the binary operation. Conversely, by [Cayley's Theorem](lecture-2-cayleys-theorem.md), we can show that these are the only axioms we need for a concrete group. Also, with this abstract definition, we can already study lots of properties about groups.
+To conclude, we dervied the abstract notion of a group from its concrete notion by taking the combination of symmetries as the binary operation. Conversely, by [Cayley's Theorem](lecture-2-cayleys-theorem.md), we can show that these are the only axioms we need for a concrete group. Also, with this abstract definition, we can already study lots of properties about groups.
 
 ## Properties of Groups
 
@@ -126,7 +126,7 @@ $$
 
 &#x20;is the inverse as $$(f^{-1} \ast f)(x) = (1/a)(ax + b) - b/a = x = e(x)$$ and $$(f \ast f^{-1})(x) = a((1/a)x - b/a) + b = x = e(x)$$.
 
-Hence, $$(G, \ast)$$ is a group. However, as $$(g \ast f)(x) = c(ax + b) + d = (ac)x + cb + d \not = (f \ast g)(x)$$, $$(G, \ast)$$ is not abelian.
+Hence, $$(G, \ast)$$ is a group. However, when $$f(x) = x + 1$$ and $$g(x) = -x + 1$$,  $$(g \ast f)(x) = -(x + 1) + 1 = -x$$ and $$(f \ast g)(x) = -x + 1 + 1 = -x + 2 \not = (g \ast f)(x)$$, $$(G, \ast)$$ is not abelian.
 
 ## Goals of Group Theory
 
