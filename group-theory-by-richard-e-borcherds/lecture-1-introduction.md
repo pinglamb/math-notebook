@@ -52,7 +52,7 @@ $$
 
 There can also be a zeroth axiom called "**Closure**", which means for all $$a, b \in G$$, we have $$a \ast b \in G$$. Technically it is always true base on the definition of binary operation $$\ast$$ but in practice it might be something we have to check.
 
-We dervied the abstract notion of a group from its concrete notion by taking the combination of symmetries as the binary operation. Conversely, it is also true by Cayley's Theorem, meaning these are the only axioms we need to define a group.
+We dervied the abstract notion of a group from its concrete notion by taking the combination of symmetries as the binary operation. Conversely, it is also true by [Cayley's Theorem](lecture-2-cayleys-theorem.md), meaning these are the only axioms we need to define a group.
 
 With this abstract definition, we can already study lots of properties about groups.
 

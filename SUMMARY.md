@@ -34,3 +34,4 @@
 ## Group Theory by Richard E Borcherds
 
 * [Lecture 1 - Introduction](group-theory-by-richard-e-borcherds/lecture-1-introduction.md)
+* [Lecture 2 - Cayley's Theorem](group-theory-by-richard-e-borcherds/lecture-2-cayleys-theorem.md)
