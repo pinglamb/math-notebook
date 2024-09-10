@@ -15,7 +15,12 @@ The set of all permutations on $$X$$ is denoted as $$\text{Sym} \, X$$. $$\text{
 
 A symmetric group $$S_n$$ is the group of permutations of a set $$X$$ with finite size $$|X| = n$$ (usually $$X = \{ 1, 2, 3, ..., n \}$$), i.e. $$\text{Sym} \, X = S_n$$. $$n$$ is the degree of $$S_n$$ (which is different from _order_).
 
+## Group Actions
+
+The intuitive way of interpreting group $$G$$ acts on a set $$X$$ is that $$G$$ is a group of some permutations of $$X$$. However, we can attain greater flexibility by defining group action as an homomorphism $$\theta$$ of $$G$$ onto some group $$\Gamma$$ of permutations of $$X$$. This means $$\theta$$ turns every element $$g \in G$$ into a permutation of $$X$$, in a way that respects the group structure, i.e. $$g(x)$$ actually means $$(\theta(g))(x)$$. If $$G$$ happens to be a group of permutations of $$X$$, we can take $$\theta$$ to be the identity map from $$G$$ to itself.
+
 ## References
 
 * [https://youtu.be/AZUDhtnz-Do](https://youtu.be/AZUDhtnz-Do?list=PL8yHsr3EFj51pjBvvCPipgAT3SYpIiIsJ)
-* Alan F. Beardon, Algebra and Geometry, 2005 - Section 1.3 (P6)
+* Alan F. Beardon, Algebra and Geometry, 2005 - Section 1.3 (P6), Section 14.5 (P303)
+* [Dexter Chua, Part IA - Groups, 2014 - Chapter 2.1](https://dec41.user.srcf.net/notes/IA\_M/groups.pdf)
