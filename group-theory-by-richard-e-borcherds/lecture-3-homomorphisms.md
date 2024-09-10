@@ -73,18 +73,18 @@ $$
 Let $$f: G \to H$$ be a homomorphism, then the _kernel_ of $$f$$ is
 
 $$
-\text{ker} \, f = f^{-1}(\{ e_H \}) = \{ g \in G : f(g) = e_H\}
+\ker f = f^{-1}(\{ e_H \}) = \{ g \in G : f(g) = e_H\}
 $$
 
 , which is a subgroup of $$G$$. It contains the elements in $$G$$ which maps to identity of $$H$$.
 
-Also, for any $$a \in G$$, for all $$k \in \text{ker} \, f$$, we have
+Also, for any $$a \in G$$, for all $$k \in \ker f$$, we have
 
 $$
 f(aka^{-1}) = f(a)f(k)f(a^{-1}) = e_H
 $$
 
-Hence, $$aka^{-1} \in \text{ker} \, f$$ and $$\text{ker} \, f$$ is a _normal subgroup_ of $$G$$. We will discuss properties of normal subgroups later.
+Hence, $$aka^{-1} \in \ker f$$ and $$\ker f$$ is a _normal subgroup_ of $$G$$. We will discuss properties of normal subgroups later.
 
 ## Isomorphisms
 
@@ -100,4 +100,57 @@ Automorphism can be throught of a symmetry of the group as it is a bijection to 
 
 ## Examples
 
-TODO
+### Exponential Map
+
+In Power Series form:
+
+$$
+\exp(x) = 1 + x + x^2/2! + x^3/3! + ...
+$$
+
+which has the property
+
+$$
+\exp(a + b) = \exp(a)\exp(b)
+$$
+
+It is a homomorphism from $$(\reals, +)$$ to $$(\reals^{\ast}, \times)$$, but not an isomorphism as it is not surjective. However, it is an isomorphism between $$(\reals, +)$$ and $$(\reals_{> 0}, \times)$$, and the inverse is the logarithmic map $$\log(x)$$.$$\text{im} \exp = \reals_{> 0}$$ and $$\ker \exp = \{ 0 \}$$.
+
+### Determinants
+
+In linear algebra, using 2-by-2 matrices as example, we have
+
+$$
+\det(A) = ad - bc
+$$
+
+which has the property
+
+$$
+\det(AB) = \det(A) \det(B)
+$$
+
+It is a homomorphism from $$(GL_n(\reals), \times)$$ to $$(\reals^{\ast}, \times)$$. $$\ker \det = SL_n(\reals)$$.
+
+### Integers modulo m
+
+In number theory, using $$(\Z/5\Z)^\times$$ as example, it possesses a primitive root of unity $$g$$ where
+
+$$
+(\Z/5\Z)^\times = \{ g^n : n \in \Z/4\Z \}
+$$
+
+meaning every elements can be represented by some powers of $$g$$. Therefore, we have
+
+$$
+g^{a + b} = (g^a)(g^b)
+$$
+
+It is a homomorphism from $$(\Z/4\Z, +)$$ to $$((\Z/5\Z)^\times, \times)$$.
+
+On the other hand, let $$f(a) = 2a$$, then $$f$$ is an automorphism of $$(\Z/5\Z, +)$$ with inverse $$g(a) = 3a.$$
+
+## References
+
+* [https://youtu.be/SUh7JBbKqVw](https://youtu.be/SUh7JBbKqVw?list=PL8yHsr3EFj51pjBvvCPipgAT3SYpIiIsJ)
+* [Dexter Chua, Part IA - Groups, 2014 - Chapter 1.2](https://dec41.user.srcf.net/notes/IA\_M/groups.pdf)
