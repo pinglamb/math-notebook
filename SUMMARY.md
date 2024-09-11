@@ -29,6 +29,7 @@
 
 * [Overview](introduction-to-number-theory-by-richard-e-borcherds/overview.md)
 * [Lecture 1 - Introduction](introduction-to-number-theory-by-richard-e-borcherds/lecture-1-introduction.md)
+* [Lecture 2 - Survey](introduction-to-number-theory-by-richard-e-borcherds/lecture-2-survey.md)
 * [Lecture 23 - Primitive Roots](introduction-to-number-theory-by-richard-e-borcherds/lecture-23-primitive-roots.md)
 * [Lecture 24 - Primitive Roots for Prime Powers](introduction-to-number-theory-by-richard-e-borcherds/lecture-24-primitive-roots-for-prime-powers.md)
 
