@@ -38,3 +38,7 @@
 * [Lecture 1 - Introduction](group-theory-by-richard-e-borcherds/lecture-1-introduction.md)
 * [Lecture 2 - Cayley's Theorem](group-theory-by-richard-e-borcherds/lecture-2-cayleys-theorem.md)
 * [Lecture 3 - Homomorphisms](group-theory-by-richard-e-borcherds/lecture-3-homomorphisms.md)
+
+## Linear Algebra
+
+* [Complex Numbers](linear-algebra/complex-numbers.md)
