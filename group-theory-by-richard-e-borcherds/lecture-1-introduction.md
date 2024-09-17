@@ -136,5 +136,5 @@ Hence, $$(G, \ast)$$ is a group. However, when $$f(x) = x + 1$$ and $$g(x) = -x 
 ## References
 
 * [https://youtu.be/RnqwFpyqJFw?list=PL8yHsr3EFj51pjBvvCPipgAT3SYpIiIsJ](https://youtu.be/RnqwFpyqJFw?list=PL8yHsr3EFj51pjBvvCPipgAT3SYpIiIsJ)
-* Alan F. Beardon, Algebra and Geometry, 2005 - Section 1.2 (P2)
-* [Dexter Chua, Part IA - Groups, 2014 - Chapter 0](https://dec41.user.srcf.net/notes/IA\_M/groups.pdf)
+* Alan F. Beardon _Algebra and Geometry_, 2005 - Section 1.2 (P2)
+* [Dexter Chua _Part IA - Groups_, 2014 - Chapter 0](https://dec41.user.srcf.net/notes/IA\_M/groups.pdf)

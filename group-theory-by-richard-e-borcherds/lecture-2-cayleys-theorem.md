@@ -22,5 +22,5 @@ The intuitive way of interpreting group $$G$$ acts on a set $$X$$ is that $$G$$ 
 ## References
 
 * [https://youtu.be/AZUDhtnz-Do](https://youtu.be/AZUDhtnz-Do?list=PL8yHsr3EFj51pjBvvCPipgAT3SYpIiIsJ)
-* Alan F. Beardon, Algebra and Geometry, 2005 - Section 1.3 (P6), Section 14.5 (P303)
-* [Dexter Chua, Part IA - Groups, 2014 - Chapter 2.1](https://dec41.user.srcf.net/notes/IA\_M/groups.pdf)
+* Alan F. Beardon _Algebra and Geometry_, 2005 - Section 1.3 (P6), Section 14.5 (P303)
+* [Dexter Chua _Part IA - Groups_, 2014 - Chapter 2.1](https://dec41.user.srcf.net/notes/IA\_M/groups.pdf)

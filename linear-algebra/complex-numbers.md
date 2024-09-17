@@ -136,12 +136,75 @@ $$
 
 ### Properties
 
-With the polar form, we can later see that
+We can later see that with the polar representation of complex number,
 
 $$
 \begin{aligned} \arg(z_1z_2) &= \arg(z_1) + \arg(z_2) \\ \arg(z^{-1}) &= \arg(\bar{z}) = - \arg(z) \end{aligned}
 $$
 
+## Polar Representation
+
+### By Cosine/Sine Functions
+
+For $$z = x + yi$$, base on the definition of modulus $$r = |z|$$ and argument $$\theta = \arg(z)$$, we have
+
+$$
+\begin{aligned} x &= r\cos\theta \\ y &= r\sin\theta \end{aligned}
+$$
+
+Therefore,
+
+$$
+z = r(\cos\theta + i\sin\theta)
+$$
+
+### By Exponential Function
+
+Consider the [Taylor's expansion](exponential-cosine-and-sine-functions.md) of $$e^x$$/$$\exp(x)$$, $$\sin(x)$$ and $$\cos(x)$$, we have
+
+$$
+e^{i\theta} = \cos \theta + i \sin \theta
+$$
+
+Hence,
+
+$$
+z = re^{i \theta}
+$$
+
+### Geometric Interpretation of Multiplication
+
+Given $$z_1 = r_1(\cos\theta_1 + i\sin\theta_1)$$ and $$z_2 = r_2(\cos\theta_2 + i\sin\theta_2)$$,
+
+$$
+\begin{aligned} z_1z_2 &= r_1r_2(\cos\theta_1 + i\sin\theta_1)(\cos\theta_2 + i\sin\theta_2) \\ &= r_1r_2[(\cos\theta_1\cos\theta_2 - \sin\theta_1\sin\theta_2) + i(\cos\theta_1\sin\theta_2 + \sin\theta_1\cos\theta_2)] \\ &= r_1r_2[\cos(\theta_1 + \theta_2) + i\sin(\theta_1 + \theta_2)] \end{aligned}
+$$
+
+Similarily, in exponential form,
+
+$$
+z_1z_2 = (r_1e^{i\theta_1})(r_2e^{i\theta_2}) = r_1r_2e^{i(\theta_1 + \theta_2)}
+$$
+
+Hence, geometrically, multiplication of $$z_1$$ by $$z_2$$ scales $$z_1$$ by $$|z_2|$$ and rotates $$z_1$$ by $$\arg(z_2)$$.
+
+### Properties
+
+As the complex conjugate of $$z$$ is $$\bar{z} = a - bi$$, base on the polar representation, we can see that $$\arg(\bar{z}) = -\arg(z)$$, therefore
+
+$$
+\bar{z} = re^{-i\theta} = r(\cos\theta - i\sin\theta)
+$$
+
+As $$e^{i\theta} = \cos\theta + i\sin\theta$$ and $$e^{-i\theta} = \cos\theta - i\sin\theta$$,
+
+$$
+\begin{aligned} \cos\theta &= {1 \over 2} \left( e^{i \theta} + e^{-i \theta}\right) \\ \sin\theta &= {1 \over 2i} \left( e^{i \theta} - e^{-i \theta}\right) \end{aligned}
+$$
+
+On the other hand, consider $$z = r(\cos\theta + i\sin\theta) = re^{i\theta} =1$$, the solution is $$r = 1$$ and $$\theta = 2k\pi$$ with $$k \in \Z$$.
+
 ## References
 
-* Alan F. Beardon, Algebra and Geometry, 2005 - Chapter 3
+* [Stephen J. Cowley _Algebra and Geometry Lectures Notes_, 2006 - Chapter 1](https://www.damtp.cam.ac.uk/user/sjc1/teaching/AandG/notes.pdf)
+* Alan F. Beardon _Algebra and Geometry_, 2005 - Chapter 3

@@ -153,4 +153,4 @@ On the other hand, let $$f(a) = 2a$$, then $$f$$ is an automorphism of $$(\Z/5\Z
 ## References
 
 * [https://youtu.be/SUh7JBbKqVw](https://youtu.be/SUh7JBbKqVw?list=PL8yHsr3EFj51pjBvvCPipgAT3SYpIiIsJ)
-* [Dexter Chua, Part IA - Groups, 2014 - Chapter 1.2](https://dec41.user.srcf.net/notes/IA\_M/groups.pdf)
+* [Dexter Chua _Part IA - Groups_, 2014 - Chapter 1.2](https://dec41.user.srcf.net/notes/IA\_M/groups.pdf)
