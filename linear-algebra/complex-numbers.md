@@ -128,7 +128,7 @@ $$
 
 which is the angle $$\theta$$ between the positive real axis and the line segment from $$0$$ to $$z$$ measured in the anti-clockwise direction.
 
-$$\arg(z)$$ has a period of $$2\pi$$ and $$\tan^{-1}$$ is single valued on the interval $$(-{\pi \over 2}, {\pi \over 2})$$, the following formula gives the principle value of $$\theta \in (-\pi, \pi]$$:
+$$\arg(z)$$ has a period of $$2\pi$$ and $$\tan^{-1}$$ is single valued on the interval $$(-{\pi \over 2}, {\pi \over 2})$$, the following formula gives the principal value of $$\theta \in (-\pi, \pi]$$:
 
 $$
 \theta = 2\tan^{-1} \left( {b \over a + |z|} \right)
