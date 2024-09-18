@@ -204,6 +204,22 @@ $$
 
 On the other hand, consider $$z = r(\cos\theta + i\sin\theta) = re^{i\theta} =1$$, the solution is $$r = 1$$ and $$\theta = 2k\pi$$ with $$k \in \Z$$.
 
+## Roots of Unity
+
+Let $$n$$ be a positive integer. The n-th roots of unity are the distinct complex numbers $$1, \omega, \omega^2, ..., \omega^{n-1}$$, where $$\omega = e^{2\pi i/n}$$, which are the $$n$$ distinct solutions of $$z^n = 1$$.
+
+\[Proof] $$\omega^n = e^{2\pi i} = 1$$. Let $$k \in \{0, 1, 2, ..., n-1\}$$, $$(\omega^k)^n = (\omega^n)^k = 1$$. Therefore, $$1, \omega, \omega^2, ..., \omega^{n-1}$$ are solutions of $$z^n = 1$$. They are obviously distinct because $$\arg(\omega^k) = 2\pi k/n$$. Conversely, suppose $$z = re^{i\theta}$$ is a solution of $$z^n = 1$$, we have $$z^n = r^ne^{in\theta} = 1$$. Therefore, $$r^n = 1$$ and $$n\theta = 2k\pi$$ with $$k \in \Z$$. Hence, we have $$r = 1$$ and by limiting $$0 \le \theta < 2\pi$$, $$\theta = 2k\pi/n$$ with $$k = 0, 1, 2, ..., n-1$$.
+
+The result can be generalized to equation $$z^n = w$$ with $$w \not= 0$$. Let $$w = re^{i\theta}$$ and $$z_0 = r^{1/n}e^{i\theta/n}$$, then $$z_0^n = w$$. Therefore, $$(z/z_0)^n = 1$$. Hence, $$z_0, z_0\omega, z_0\omega^2, ..., z_0\omega^{n-1}$$ are the n distinct solutions.
+
+Furthermore, following from the sum of geometric series and $$\omega^n = 1$$,
+
+$$
+1 + \omega + \omega^2 + ... + \omega^{n-1} = {1 - \omega^n \over 1 - \omega} = 0
+$$
+
+Geometrically, the n-th roots of unity are the vertices of a regular n-gon on the complex plane, which are evenly spaced around a circle.
+
 ## References
 
 * [Stephen J. Cowley _Algebra and Geometry Lectures Notes_, 2006 - Chapter 1](https://www.damtp.cam.ac.uk/user/sjc1/teaching/AandG/notes.pdf)
