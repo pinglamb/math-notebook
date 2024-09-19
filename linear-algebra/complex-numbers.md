@@ -270,6 +270,22 @@ $$
 
 Since $$\log(z)$$ is multi-valued, $$z^w$$ is only defined to an arbitrary multiple of $$e^{2k\pi i w}$$.
 
+## De Moivre's Theorem
+
+For $$\theta \in \R$$ and $$n \in \Z$$,
+
+$$
+\cos n\theta + i\sin n\theta = (\cos \theta + i\sin \theta)^n
+$$
+
+\[Proof] As $$\cos \theta + i\sin \theta = e^{i\theta}$$, we have
+
+$$
+\begin{aligned} \cos n\theta + i \sin n\theta &= e^{i(n\theta)} \\ &= (e^{i\theta})^n \\ &= (\cos \theta + i \sin \theta)^n \end{aligned}
+$$
+
+The theorem can be extended to $$\theta, n \in \Complex$$ with $$\cos n \theta + i \sin n \theta$$ equals to one of the values of $$(\cos \theta + i\sin \theta)^n$$.
+
 ## References
 
 * [Stephen J. Cowley _Algebra and Geometry Lectures Notes_, 2006 - Chapter 1](https://www.damtp.cam.ac.uk/user/sjc1/teaching/AandG/notes.pdf)
