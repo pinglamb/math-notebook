@@ -220,6 +220,56 @@ $$
 
 Geometrically, the n-th roots of unity are the vertices of a regular n-gon on the complex plane, which are evenly spaced around a circle.
 
+## Logarithms and Powers
+
+### Definition
+
+For $$z \in \Complex$$, $$\log(z)$$ is defined as "the" solution $$w$$ of $$e^w = z$$. Hence, by definion, we have
+
+$$
+\exp(\log(z)) = z
+$$
+
+and given $$w = \log(z)$$,
+
+$$
+\begin{aligned} \log(\exp(w)) &= \log[\exp(\log(z))] \\ &= \log[z] \\ &= w \end{aligned}
+$$
+
+Let $$z = re^{i\theta}$$ and $$w = x + yi$$, by definition, we have $$e^{x + yi} = (e^x)(e^{iy}) =re^{i\theta}$$, therefore
+
+$$
+\begin{aligned} x &= \log(r) = \log(|z|) \\ y &= \theta + 2k\pi = \arg(z) \end{aligned}
+$$
+
+Hence,
+
+$$
+\log(z) = \log(|z|) + i\arg(z)
+$$
+
+which is multi-valued as $$\arg(z)$$ is multi-valued function. The principal value of $$\log(z)$$ is $$-\pi < \arg(z) = \text{Im}(\log(z)) \le \pi$$.
+
+With complex logarithms, we can have $$\log(-1) = \log(1) + i\pi$$, which has no solution in real.
+
+### Properties
+
+Similar to $$\log(x)$$ with $$x \in \R$$, we have
+
+$$
+\log(z_1z_2) = \log(z_1) + \log(z_2)
+$$
+
+### Complex Powers
+
+Similar to $$x^a = e^{a\log x} = \exp(a \log x)$$ with $$x \in \R_{> 0}$$, we have for $$z \not = 0$$ and $$z, w \in \Z$$,
+
+$$
+z^w = e^{w \log z}
+$$
+
+Since $$\log(z)$$ is multi-valued, $$z^w$$ is only defined to an arbitrary multiple of $$e^{2k\pi i w}$$.
+
 ## References
 
 * [Stephen J. Cowley _Algebra and Geometry Lectures Notes_, 2006 - Chapter 1](https://www.damtp.cam.ac.uk/user/sjc1/teaching/AandG/notes.pdf)
