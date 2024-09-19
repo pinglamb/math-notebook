@@ -286,6 +286,58 @@ $$
 
 The theorem can be extended to $$\theta, n \in \Complex$$ with $$\cos n \theta + i \sin n \theta$$ equals to one of the values of $$(\cos \theta + i\sin \theta)^n$$.
 
+## Lines and Circles in the Complex Plane
+
+### Lines
+
+For $$z_0, w \in \Complex$$ with $$w \not = 0$$ and varying $$\lambda \in \R$$, the equation
+
+$$
+z = z_0 + \lambda w
+$$
+
+represents points on a straight line passing through $$z_0$$ and parallel to $$w$$, which is similar to point slope form.
+
+As $$\lambda \in \R$$, $$\lambda = \bar{\lambda}$$, we have $${z - z_0 \over w} = {\bar{z} - \bar{z_0} \over \bar{w}}$$, therefore
+
+$$
+z\bar{w} -\bar{z}w = z_0\bar{w} - \bar{z_0}w
+$$
+
+is an alternative representation of the line.
+
+Also, given $$u, v \in \Complex$$, the points that are equidistant from them form a straight line. Therefore,
+
+$$
+|z - u|^2 = |z - v|^2
+$$
+
+&#x20;is a straight line. As $$|z - u|^2 = (z - u)(\bar{z} - \bar{u})$$ and $$|z - v|^2 = (z - v)(\bar{z} - \bar{v})$$, we have
+
+$$
+(\bar{v} - \bar{u})z + (v - u)\bar{z} + |u|^2 + |v|^2 = 0
+$$
+
+Hence, let $$a = v -u$$ and $$b = |u|^2 + |v|^2 \in \R$$, we have a general representation
+
+$$
+\bar{a}z + a\bar{z} + b = 0
+$$
+
+### Circles
+
+The points on a circle in the complex plane with centre $$w$$ and radius $$r$$ is given by the equation
+
+$$
+|z - w| = r
+$$
+
+Since $$r^2 = |z - w|^2 = (z - w)(\bar{z} - \bar{w})$$,
+
+$$
+z\bar{z} - (z\bar{w} + \bar{z}w) + |w|^2 = r^2
+$$
+
 ## References
 
 * [Stephen J. Cowley _Algebra and Geometry Lectures Notes_, 2006 - Chapter 1](https://www.damtp.cam.ac.uk/user/sjc1/teaching/AandG/notes.pdf)
