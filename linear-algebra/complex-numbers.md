@@ -324,6 +324,12 @@ $$
 \bar{a}z + a\bar{z} + b = 0
 $$
 
+The other way to express a straight line passing through two points $$u$$ and $$v$$ is
+
+$$
+z - u = \lambda(v - u)
+$$
+
 ### Circles
 
 The points on a circle in the complex plane with centre $$w$$ and radius $$r$$ is given by the equation
