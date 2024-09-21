@@ -336,6 +336,8 @@ $$
 z = (1 - \lambda)u + \lambda v
 $$
 
+More other forms can be found [here](https://proofwiki.org/wiki/Equation\_for\_Line\_through\_Two\_Points\_in\_Complex\_Plane).
+
 ### Circles
 
 The points on a circle in the complex plane with centre $$w$$ and radius $$r$$ is given by the equation
@@ -354,3 +356,4 @@ $$
 
 * [Stephen J. Cowley _Algebra and Geometry Lectures Notes_, 2006 - Chapter 1](https://www.damtp.cam.ac.uk/user/sjc1/teaching/AandG/notes.pdf)
 * Alan F. Beardon _Algebra and Geometry_, 2005 - Chapter 3
+* [https://proofwiki.org/wiki/Equation\_for\_Line\_through\_Two\_Points\_in\_Complex\_Plane](https://proofwiki.org/wiki/Equation\_for\_Line\_through\_Two\_Points\_in\_Complex\_Plane)
