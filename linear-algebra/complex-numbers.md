@@ -324,10 +324,16 @@ $$
 \bar{a}z + a\bar{z} + b = 0
 $$
 
-The other way to express a straight line passing through two points $$u$$ and $$v$$ is
+Practically, it will be more useful to represent the straight line passing through two points $$u$$ and $$v$$ as parametric form
 
 $$
 z - u = \lambda(v - u)
+$$
+
+or
+
+$$
+z = (1 - \lambda)u + \lambda v
 $$
 
 ### Circles
