@@ -25,6 +25,10 @@
 * [\[Solution\] Pirates and Monkey Problem](number-theory/solution-pirates-and-monkey-problem.md)
 * [\[Solution\] Primes of the form n, n+2 and n+4](number-theory/solution-primes-of-the-form-n-n+2-and-n+4.md)
 
+## Geometry
+
+* [Apollonian Circles](geometry/apollonian-circles.md)
+
 ## Introduction to Number Theory by Richard E Borcherds
 
 * [Overview](introduction-to-number-theory-by-richard-e-borcherds/overview.md)
