@@ -128,7 +128,23 @@ $$
 (\bold{a} - \bold{b})^2 = (\bold{a} - \bold{b}) \cdot (\bold{a} - \bold{b}) = \bold{a} \cdot \bold{a} + \bold{b} \cdot \bold{b} - 2(\bold{a} \cdot \bold{b})
 $$
 
-\[TODO Geometric meaning]
+In geometry, the projection of $$\bold{b}$$ onto $$\bold{a}$$ is the part of $$\bold{b}$$ that is parallel to $$\bold{a}$$, denoted by $$\bold{b}^{\perp}$$. When $$0 \le \theta \le \pi/2$$, $$|\bold{b}^{\perp}| = |\bold{b}| \cos \theta$$ and $$\bold{b}^{\perp}$$ is in same direction as $$\bold{a}$$, Therefore,
+
+$$
+\bold{b}^{\perp} = (|\bold{b}|\cos\theta)\,\bold{\hat{a}}
+$$
+
+When $$\pi / 2 < \theta \le \pi$$, $$|\bold{b}^{\perp}| = |\bold{b}| \cos (\pi - \theta)$$ and $$\bold{b}^{\perp}$$ is in opposite direction as $$\bold{a}$$. Therefore,
+
+$$
+\bold{b}^{\perp} = \left(-|\bold{b}|\cos(\pi -\theta)\right)\,\bold{\hat{a}} = (|\bold{b}|\cos\theta)\,\bold{\hat{a}}
+$$
+
+Hence,&#x20;
+
+$$
+\bold{b}^{\perp} = |\bold{b}|{\bold{b} \cdot \bold{a} \over |\bold{b}||\bold{a}|}\bold{\hat{a}} = {\bold{b} \cdot \bold{a} \over |\bold{a}|^2}\bold{a} = (\bold{b} \cdot \bold{\hat{a}})\,\bold{\hat{a}}
+$$
 
 ### Properties
 
