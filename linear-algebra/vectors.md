@@ -148,7 +148,7 @@ $$
 
 ### Properties
 
-Base on the definiton, we can see that it is _commutative_, i.e.
+Base on the definiton, we can see that scalar multiplication is _commutative_, i.e.
 
 $$
 \bold{a} \cdot \bold{b} = \bold{b} \cdot \bold{a}
@@ -162,4 +162,35 @@ $$
 
 with equality holds if and only if $$\bold{a} = \bold{0}$$.
 
-\[TODO Linearity Property]
+If $$\bold{a} \cdot \bold{b} = 0$$ and $$\bold{a} \not = \bold{0}$$ and $$\bold{b} \not = \bold{0}$$, then $$\bold{a} \perp \bold{b}$$ and $$\theta = \pi/2$$.
+
+### Linearity in the Arguments
+
+From the definition, we can see that for $$\lambda \in \R$$,
+
+$$
+\bold{a} \cdot (\lambda\bold{b}) = (\lambda \bold{a}) \cdot \bold{b} = \lambda(\bold{a} \cdot \bold{b})
+$$
+
+According to the following graph,
+
+<figure><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Dot_product_distributive_law.svg/320px-Dot_product_distributive_law.svg.png" alt=""><figcaption></figcaption></figure>
+
+We can see that $$\bold{b}^{\perp} + \bold{c}^{\perp} = (\bold{b} + \bold{c})^{\perp}$$. Hence,
+
+$$
+\begin{aligned} {\bold{a} \cdot \bold{b} \over |\bold{a}|^2}\bold{a} + {\bold{a} \cdot \bold{c} \over |\bold{a}|^2}\bold{a} &= {\bold{a} \cdot (\bold{b} + \bold{c}) \over |\bold{a}|^2}\bold{a} \\ (\bold{a} \cdot \bold{b} + \bold{a} \cdot \bold{c})(\bold{a} \cdot \bold{a}) &= [\bold{a} \cdot (\bold{b} + \bold{c})](\bold{a} \cdot \bold{a}) \\ \bold{a} \cdot \bold{b} + \bold{a} \cdot \bold{c} &= \bold{a} \cdot (\bold{b} + \bold{c})\end{aligned}
+$$
+
+Combining the above, we have what we called _linearity in the second argument_,
+
+$$
+\bold{a} \cdot (\lambda \bold{b} + \mu \bold{c}) = \lambda \bold{a} \cdot \bold{b} + \mu \bold{a} \cdot \bold{c}
+$$
+
+In fact, as scalar multiplication of vectors in real vector spaces is commutative, we also have linearity in the first argument (which might not be true in other vector spcaes).
+
+## References
+
+* [Stephen J. Cowley _Algebra and Geometry Lectures Notes_, 2006 - Chapter 2](https://www.damtp.cam.ac.uk/user/sjc1/teaching/AandG/notes.pdf)
+* [https://math.stackexchange.com/questions/1109142/proving-that-the-dot-product-is-distributive](https://math.stackexchange.com/questions/1109142/proving-that-the-dot-product-is-distributive)
