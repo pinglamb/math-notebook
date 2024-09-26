@@ -190,6 +190,14 @@ $$
 
 In fact, as scalar multiplication of vectors in real vector spaces is commutative, we also have linearity in the first argument (which might not be true in other vector spcaes).
 
+## Vector Product
+
+## Bases and Components
+
+## Vector Equations
+
+## Lines, Planes and Spheres
+
 ## References
 
 * [Stephen J. Cowley _Algebra and Geometry Lectures Notes_, 2006 - Chapter 2](https://www.damtp.cam.ac.uk/user/sjc1/teaching/AandG/notes.pdf)
