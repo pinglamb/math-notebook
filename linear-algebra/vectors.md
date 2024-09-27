@@ -192,6 +192,69 @@ In fact, as scalar multiplication of vectors in real vector spaces is commutativ
 
 ## Vector Product
 
+The vector/cross product $$\bold{a} \times \bold{b}$$ of an ordered pair $$\bold{a}, \bold{b}$$ is a vector such that
+
+1. The magnitude of $$\bold{a} \times \bold{b}$$ is
+
+$$
+|\bold{a} \times \bold{b}| = |\bold{a}||\bold{b}|\sin \theta
+$$
+
+with $$0 \le \theta \le \pi$$ with definition similar to dot product (non-reflex angle after "tail-to-tail" or "head-to-head" placement of the two vectors).
+
+2. $$\bold{a} \times \bold{b}$$ is orthongonal to both $$\bold{a}$$ and $$\bold{b}$$ (if $$\bold{a} \times \bold{b} \not = \bold{0}$$)
+3. $$\bold{a} \times \bold{b}$$ has the direction defined by "right-hand rule" ($$\bold{a}$$ - index finger, $$\bold{b}$$ - second finger, $$\bold{a} \times \bold{b}$$ - thumb)
+
+<figure><img src="../.gitbook/assets/vector-product.png" alt=""><figcaption></figcaption></figure>
+
+Conside a triangle with vertices $$O, A, B$$, we have area of $$OAB$$ equals to $${1 \over 2}|\bold{a}||\bold{b}| \sin \theta = {1 \over 2}|\bold{a} \times \bold{b}|$$, and area of parallelogram $$OACB$$ equals to $$|\bold{a} \times \bold{b}|$$, with the direction of $$\bold{a} \times \bold{b}$$ orthogonal to the triangle/parallelogram.
+
+The vector product is only defined for $$\R^3$$ space but not all vector spaces in general.
+
+### Properties
+
+Vector product is _anti-commutative_
+
+$$
+\bold{a} \times \bold{b} = - \bold{b} \times \bold{a}
+$$
+
+Vector product of a vector with itself is a zero vector
+
+$$
+\bold{a} \times \bold{a} = \bold{0}
+$$
+
+Given $$\bold{a} \not = \bold{0}$$ and $$\bold{b} \not = \bold{0}$$
+
+$$
+\bold{a} \times \bold{b} = \bold{0} \implies \bold{a} = \lambda \bold{b}
+$$
+
+i.e. $$\bold{a}$$ and $$\bold{b}$$ are parallel and $$\theta = 0$$ or $$\theta = \pi$$.
+
+From definition
+
+$$
+\bold{a} \times (\lambda\bold{b}) = \lambda ( \bold{a} \times \bold{b})
+$$
+
+### Linearity in the Second Arguments
+
+The vector product $$\bold{\hat{a}} \times \bold{b}$$ can be constructed by two steps. First project $$\bold{b}$$ onto a plane orthogonal to $$\bold{\hat{a}}$$ and then rotate the projection $$\bold{b'}$$ by $$\pi/2$$ in "anti-clockwise" direction (when looking in the opposite direction of $$\bold{\hat{a}}$$) to form $$\bold{b''}$$.
+
+<figure><img src="../.gitbook/assets/Screenshot 2024-09-27 at 5.08.53 PM.png" alt=""><figcaption></figcaption></figure>
+
+We can see that $$|\bold{b}''| = |\bold{b'}| = |\bold{b}| \sin \theta$$. By construction, $$\bold{b''} = \bold{\hat{a}} \times \bold{b}$$. Hence,
+
+$$
+\bold{a} \times (\lambda\bold{b} + \mu\bold{c}) = \lambda\bold{a} \times \bold{b} + \mu\bold{a} \times \bold{c}
+$$
+
+with a similar argument as the proof in dot product.
+
+## Triple Products
+
 ## Bases and Components
 
 ## Vector Equations
