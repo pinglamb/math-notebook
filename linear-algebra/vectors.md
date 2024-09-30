@@ -1,10 +1,10 @@
 # Vectors
 
-The discussion here focuses on vectors in 2D and 3D spaces, i.e. $$\R^2$$ and $$\R^3$$. It begins from defining vectors and various operations among them geometrically. It then can be extended to algebraic definitions and generalized to the concept of [vector spaces](vector-spaces.md).
+The discussion here focuses on vectors in 2D and 3D spaces, i.e. $$^2$$ and $$^3$$. It begins from defining vectors and various operations among them geometrically. It then can be extended to algebraic definitions and generalized to the concept of [vector spaces](vector-spaces.md).
 
 ## Definition
 
-In $$\R^2$$ and $$\R^3$$, a vector is a quantity that is specified by a \[positive] _magnitude_ and a _direction_ in space. A vector $$\bold{v}$$ is represented geometrically as a line segment $$\vec{AB}$$ with magnitude $$|\bold{v}|$$ and with direction from $$A$$ to $$B$$. With a chosen origin $$O$$, every point $$P$$ in 2D/3D space has a position vector $$\bold{x} = \vec{OP}$$.
+In $$^2$$ and $$^3$$, a vector is a quantity that is specified by a \[positive] _magnitude_ and a _direction_ in space. A vector $$\bold{v}$$ is represented geometrically as a line segment $$\vec{AB}$$ with magnitude $$|\bold{v}|$$ and with direction from $$A$$ to $$B$$. With a chosen origin $$O$$, every point $$P$$ in 2D/3D space has a position vector $$\bold{x} = \vec{OP}$$.
 
 When $$|\bold{v}| = 0$$, we have the zero/null vector, denoted by $$\bold{0}$$.
 
@@ -62,11 +62,11 @@ $$
 \bold{b} - \bold{a} = \bold{b} + (-\bold{a})
 $$
 
-According to the above, the set of $$\R^2$$/$$\R^3$$ vectors form a abelian group under addition.
+According to the above, the set of $$^2$$/$$^3$$ vectors form a abelian group under addition.
 
 ## Multiplication by Scalars
 
-Let $$\bold{a}$$ be an vector and $$\lambda \in \R$$, $$\lambda\bold{a}$$ is defined as a vector parallel to $$\bold{a}$$, with magnitude $$|\lambda| |\bold{a}|$$ and same direction as $$\bold{a}$$ when $$\lambda > 0$$ and opposite direction to $$\bold{a}$$ when $$\lambda < 0$$.
+Let $$\bold{a}$$ be an vector and $$\lambda \in$$, $$\lambda\bold{a}$$ is defined as a vector parallel to $$\bold{a}$$, with magnitude $$|\lambda| |\bold{a}|$$ and same direction as $$\bold{a}$$ when $$\lambda > 0$$ and opposite direction to $$\bold{a}$$ when $$\lambda < 0$$.
 
 ### Properties
 
@@ -88,7 +88,7 @@ $$
 1\bold{a} = \bold{a}
 $$
 
-When $$\lambda = 0$$, since $$0|\bold{a}| = 0$$,  we have
+When $$\lambda = 0$$, since $$0|\bold{a}| = 0$$, we have
 
 $$
 0\bold{a} = \bold{0}
@@ -140,7 +140,7 @@ $$
 \bold{b}^{\perp} = \left(-|\bold{b}|\cos(\pi -\theta)\right)\,\bold{\hat{a}} = (|\bold{b}|\cos\theta)\,\bold{\hat{a}}
 $$
 
-Hence,&#x20;
+Hence,
 
 $$
 \bold{b}^{\perp} = |\bold{b}|{\bold{b} \cdot \bold{a} \over |\bold{b}||\bold{a}|}\bold{\hat{a}} = {\bold{b} \cdot \bold{a} \over |\bold{a}|^2}\bold{a} = (\bold{b} \cdot \bold{\hat{a}})\,\bold{\hat{a}}
@@ -166,7 +166,7 @@ If $$\bold{a} \cdot \bold{b} = 0$$ and $$\bold{a} \not = \bold{0}$$ and $$\bold{
 
 ### Linearity in the Arguments
 
-From the definition, we can see that for $$\lambda \in \R$$,
+From the definition, we can see that for $$\lambda \in$$,
 
 $$
 \bold{a} \cdot (\lambda\bold{b}) = (\lambda \bold{a}) \cdot \bold{b} = \lambda(\bold{a} \cdot \bold{b})
@@ -209,7 +209,7 @@ with $$0 \le \theta \le \pi$$ with definition similar to dot product (non-reflex
 
 Conside a triangle with vertices $$O, A, B$$, we have area of $$OAB$$ equals to $${1 \over 2}|\bold{a}||\bold{b}| \sin \theta = {1 \over 2}|\bold{a} \times \bold{b}|$$, and area of parallelogram $$OACB$$ equals to $$|\bold{a} \times \bold{b}|$$, with the direction of $$\bold{a} \times \bold{b}$$ orthogonal to the triangle/parallelogram.
 
-The vector product is only defined for $$\R^3$$ space but not all vector spaces in general.
+The vector product is only defined for $$^3$$ space but not all vector spaces in general.
 
 ### Properties
 
@@ -243,7 +243,7 @@ $$
 
 The vector product $$\bold{\hat{a}} \times \bold{b}$$ can be constructed by two steps. First project $$\bold{b}$$ onto a plane orthogonal to $$\bold{\hat{a}}$$ and then rotate the projection $$\bold{b'}$$ by $$\pi/2$$ in "anti-clockwise" direction (when looking in the opposite direction of $$\bold{\hat{a}}$$) to form $$\bold{b''}$$.
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-09-27 at 5.08.53 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/vector-product-projection.png" alt=""><figcaption></figcaption></figure>
 
 We can see that $$|\bold{b}''| = |\bold{b'}| = |\bold{b}| \sin \theta$$. By construction, $$\bold{b''} = \bold{\hat{a}} \times \bold{b}$$. Hence,
 
